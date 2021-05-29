@@ -1,0 +1,73 @@
+
+.navbar{
+border-radius: 0;
+margin-bottom: 0;
+
+margin-left: 0;
+background-color: gray;
+width: 100%;
+border: 2px solid black;
+margin-bottom: 0;
+}
+.container{
+  margin-left:0;
+}
+
+h3{
+	text-align: center;
+}
+
+hr{
+  border-top: 2px solid black;
+  margin: 0;
+}
+.navbar-nav{
+  margin: 0;
+  border-left:3px solid black;
+  border-right:3px solid black;
+  border-bottom:3px solid black;
+  border-top:1px solid black;
+}
+#myNavbar ul li a {
+	color: black;
+  text-align: center;
+  line-height: 5px;
+  width: 100%;
+}
+.navbar-default .navbar-brand {
+font-size: 32px;
+color: black;	
+}
+p {
+  background-color: #bfbfbf;
+margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 40px 10px 5px 10px;
+  height: 1000px;
+  overflow: hidden;
+}
+#container{
+  position: relative;
+}
+.p1, .p2, .p3{
+position:absolute;
+top:0;
+width: 100%;
+text-align: center;
+margin-top: 0;
+margin-bottom :7px;
+
+}
+.navbar-default .navbar-toggle {
+  border-color:white;
+  background-color: turquoise;
+}
+@media (max-width: 767px) {
+ p{
+  height:800px;
+  margin-left: 70px;
+  margin-right: 70px;
+  overflow: hidden;
+ }
+}
